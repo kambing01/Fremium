@@ -1,26 +1,55 @@
-import optparse
-
-par = optparse.OptionParser(
-    usage = 'usage: %prog --bit 32 or --bit 64'
-)
-
-par.add_option(
-    '--bit',help='Masukan bit hp mu contoh: --bit 64',default=None
-)
-(arg,opt) = par.parse_args()
-
-if __name__ == "__main__":
-	if(arg.bit=="64"):
-		try:
-			from ap64 import app as co
-			co.hencet_memek()
-		except Exception as e:
-			exit(e)
-	elif(arg.bit=="32"):
-		try:
-			from ap32 import app as cok
-			cok.hencet_memek()
-		except Exception as e:
-			exit(e)
-	else:
-		exit("\n Gunakan python run.py --bit 64 Jika hpmu 64 Bit, Guanakan python run.py --bit 32 Jika hpmu 32 Bit.\n")
+# Cow Crack
+a tool to "crack" facebook account.
+# install packpages
+```BASH
+pkg install git
+pkg install python
+```
+## clone
+```BASH
+git clone https://github.com/Latip176/cow_crack
+```
+## setup
+```BASH
+cd cow_crack
+python3 -m pip install -r requirements.txt
+```
+# running
+## buat hp 64 bit
+```BASH
+cd cow_crack
+python run.py --bit 64
+```
+## buat hp 32 bit
+```
+cd cow_crack
+python run.py --bit 32
+```
+# command buat update
+```BASH
+cd $HOME/cow_crack
+git pull
+rm -rf *.so
+python run.py
+```
+# license price information
+<table border="0">
+<tr>
+<th>Price</th>
+<th>Duraction</th>
+</tr>
+<tr>
+<td>30.000</td>
+<td>14 Hari</td>
+</tr>
+<tr>
+<td>50.000</td>
+<td>20 Hari</td>
+</tr>
+</table>
+<h1>Hasil</h1>
+<img src="img/Screenshot_20220129-151655_Termux.jpg">
+<h1>credits</h1>
+<li>Gias Hasting and Friends. </li>
+<li>Tim offline python jawa barat</li>
+<p>Last update: 01, Maret, 2022</p>

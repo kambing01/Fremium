@@ -50,6 +50,6 @@ python run.py
 <h1>Hasil</h1>
 <img src="img/Screenshot_20220129-151655_Termux.jpg">
 <h1>credits</h1>
-<li>Gias Hasting and Friends. </li>
+<li>Gias Yann Fahmi Ari and Friends. </li>
 <li>Tim offline python jawa barat</li>
 <p>Last update: 01, Maret, 2022</p>
